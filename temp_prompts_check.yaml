@@ -1,0 +1,22 @@
+system_prompt: |
+  Extract invoice information from the provided document and generate a structured JSON object. The JSON should include the following fields:
+
+  invoice_number (the unique identifier for the invoice),
+  invoice_date (the date the invoice was issued),
+  due_date (the payment due date),
+  amount (the total amount due on the invoice).
+
+  The JSON should follow this structure:
+
+  {
+    "invoice_number": "INV-12345",
+    "invoice_date": "YYYY-MM-DD",
+    "due_date": "YYYY-MM-DD",
+    "amount": "123.45"
+  }
+
+  Extract the exact values from the document. If a field cannot be found, use null for that field. Dates should be formatted as YYYY-MM-DD. Amount should be a numeric string without currency symbols.
+
+
+user_prompt: 
+  "Extract the invoice details from the following document and return the JSON as previously instructed.\n\nDocument: \n"

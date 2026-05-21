@@ -1,0 +1,21 @@
+{
+  "invoice_number": {
+    "value": "41708897",
+    "confidence": 94
+  },
+  "invoice_date": {
+    "value": "2025-08-24",
+    "confidence": 94
+  },
+  "due_date": {
+    "value": null,
+    "confidence": 0
+  },
+  "amount": {
+    "value": "387.43",
+    "confidence": 56
+  },
+  "llm_summary": {
+    "value": "[Abnormal] - invoice is missing: invoice number, invoice date, due date, and amount (no extractable fields present in the document)."
+  }
+}

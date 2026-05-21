@@ -1,0 +1,117 @@
+[
+  {
+    "name": "AZURE_TENANT_ID",
+    "slotSetting": false,
+    "value": "3bca58b4-fcf2-4e3e-aca9-bc95ec08ae47"
+  },
+  {
+    "name": "AZURE_CLIENT_ID",
+    "slotSetting": false,
+    "value": "ec5c72c3-01af-4cc2-98ea-0db90162d867"
+  },
+  {
+    "name": "allow_environment_variables",
+    "slotSetting": false,
+    "value": "true"
+  },
+  {
+    "name": "APP_CONFIGURATION_URI",
+    "slotSetting": false,
+    "value": "https://appconfig-snsta5h4rrg7e.azconfig.io"
+  },
+  {
+    "name": "WEBSITE_VNET_ROUTE_ALL",
+    "slotSetting": false,
+    "value": "0"
+  },
+  {
+    "name": "WEBSITE_DNS_SERVER",
+    "slotSetting": false,
+    "value": ""
+  },
+  {
+    "name": "WEBSITE_HTTPLOGGING_RETENTION_DAYS",
+    "slotSetting": false,
+    "value": "7"
+  },
+  {
+    "name": "FUNCTIONS_EXTENSION_VERSION",
+    "slotSetting": false,
+    "value": "~4"
+  },
+  {
+    "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+    "slotSetting": false,
+    "value": "ca062a72-ba7d-4760-a876-da408196be07"
+  },
+  {
+    "name": "AzureWebJobsStorage__credential",
+    "slotSetting": false,
+    "value": "managedidentity"
+  },
+  {
+    "name": "AzureWebJobsStorage__clientId",
+    "slotSetting": false,
+    "value": "ec5c72c3-01af-4cc2-98ea-0db90162d867"
+  },
+  {
+    "name": "AzureWebJobsStorage__accountName",
+    "slotSetting": false,
+    "value": "stsnsta5h4rrg7efunc"
+  },
+  {
+    "name": "DataStorage__clientId",
+    "slotSetting": false,
+    "value": "ec5c72c3-01af-4cc2-98ea-0db90162d867"
+  },
+  {
+    "name": "DataStorage__accountName",
+    "slotSetting": false,
+    "value": "stsnsta5h4rrg7edata"
+  },
+  {
+    "name": "DataStorage__credential",
+    "slotSetting": false,
+    "value": "managedidentity"
+  },
+  {
+    "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
+    "slotSetting": false,
+    "value": "InstrumentationKey=ca062a72-ba7d-4760-a876-da408196be07;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=ad3a06cb-6f0f-4a1c-b2ef-f7b005e3b5ec"
+  },
+  {
+    "name": "APPLICATIONINSIGHTS_AUTHENTICATION_STRING",
+    "slotSetting": false,
+    "value": "Authorization=AAD"
+  },
+  {
+    "name": "AzureWebJobsStorage__blobServiceUri",
+    "slotSetting": false,
+    "value": "https://stsnsta5h4rrg7efunc.blob.core.windows.net"
+  },
+  {
+    "name": "AzureWebJobsStorage__queueServiceUri",
+    "slotSetting": false,
+    "value": "https://stsnsta5h4rrg7efunc.queue.core.windows.net"
+  },
+  {
+    "name": "AzureWebJobsStorage__tableServiceUri",
+    "slotSetting": false,
+    "value": "https://stsnsta5h4rrg7efunc.table.core.windows.net"
+  },
+  {
+    "name": "DataStorage__blobServiceUri",
+    "slotSetting": false,
+    "value": "https://stsnsta5h4rrg7edata.blob.core.windows.net"
+  },
+  {
+    "name": "DataStorage__queueServiceUri",
+    "slotSetting": false,
+    "value": "https://stsnsta5h4rrg7edata.queue.core.windows.net"
+  },
+  {
+    "name": "DataStorage__tableServiceUri",
+    "slotSetting": false,
+    "value": "https://stsnsta5h4rrg7edata.table.core.windows.net"
+  }
+]
